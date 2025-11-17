@@ -98,6 +98,10 @@ Minor: `pub` function could be `pub(crate)`.
 
 The tests are added to `main.rs` of `builder-usage` (not really a bug, but it's unclear where the given tests should be placed).
 
+**Section 8.3 (page 175)**
+
+`.expect(concat!` should be `expect(concat!`.
+
 **Section 10.1.2 (page 237)**
 
 The `Ok` and `?` are redundant. So this:
