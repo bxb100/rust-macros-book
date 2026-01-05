@@ -90,9 +90,13 @@ Minor: `pub` function could be `pub(crate)`.
 
 `-> TokenStream` should be `-> ReturnType`, `match ast.sig.output` should be `let output = match ast.sig.ouput`, `Ok(quote! {...} )` should be `quote! {...}`, and `syn::parse2(output).unwrap()` should be the last line of the function. All of this was correct in the code for the book, but something went wrong in the text.
 
-**Section 7.9.2(e.g. p. 155)**
+**Section 7.9.2 (page 155)**
 
 `proc_macro_error` uses syn version 1. There's a `proc-macro-error-2` (fork of the original project) that uses syn version 2.
+
+**Section 7.10 (page 160-162)**
+
+Shuttle is not mentioned in chapter 1 anymore. Note that the project has been shut down since January 2026.
 
 **Section 8.1 (page 164)**
 
